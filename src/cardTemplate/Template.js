@@ -8,7 +8,7 @@ function Header(){
 }
 
 /* Template for book card */
-function BookCard({title, summary,author}){
+export function BookCard({title, summary,author}){
     return(
             <div className="bookCard"> 
                 <p className="title">{title}</p>

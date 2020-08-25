@@ -25,7 +25,6 @@ function SearchBar({onSubmit}) {
   
     return(
         <div id="searchBar">
-          <input type="hidden" value="prayer" />
           <input id="myInput" type="text" required name="MyLibraray" placeholder="Search"
               onChange={(e)=> {
                 setInputData(e.target.value)

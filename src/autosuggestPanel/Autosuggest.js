@@ -2,7 +2,7 @@ import React from 'react';
 import './Autosuggest.css'
 
 /*template for row in autosuggest panel*/
-function SuggestionRow({value, click}){
+export function SuggestionRow({value, click}){
   return(
     <div className="suggestionRow" onClick={click}>
       {value}
@@ -27,4 +27,4 @@ function AutoSuggestPanel ({list = [], onClick}) {
   )
 }
 
-export default AutoSuggestPanel
+export default AutoSuggestPanel;
