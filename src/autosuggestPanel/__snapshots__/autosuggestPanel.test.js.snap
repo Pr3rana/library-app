@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  id="autosuggestPanel"
+/>
+`;
+
+exports[`renders correctly 2`] = `
+<div
+  className="suggestionRow"
+/>
+`;

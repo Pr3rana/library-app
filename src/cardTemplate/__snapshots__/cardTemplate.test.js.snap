@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <h3
+    id="header"
+  >
+    Unibuddy Library
+  </h3>
+  <div
+    id="searchBar"
+  >
+    <input
+      id="myInput"
+      name="MyLibraray"
+      onChange={[Function]}
+      placeholder="Search"
+      required={true}
+      type="text"
+      value=""
+    />
+    <button
+      onClick={[Function]}
+    >
+      <i
+        className="fa fa-search"
+      />
+    </button>
+  </div>
+  <div
+    id="mainWrapper"
+  />
+</div>
+`;
+
+exports[`renders correctly 2`] = `
+<div
+  className="bookCard"
+>
+  <p
+    className="title"
+  >
+    Test
+  </p>
+  <p
+    className="summary"
+  >
+    true
+  </p>
+  <p
+    className="author"
+  >
+    By: 
+    Prerna
+  </p>
+</div>
+`;
