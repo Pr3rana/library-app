@@ -1,4 +1,4 @@
-import { fetchData } from "./dataHandler"
+import { fetchData } from "./dataFetcher"
 import { input } from "../assets/sampleData" 
 
 /*fetches the raw data and create a hash map as per word*/

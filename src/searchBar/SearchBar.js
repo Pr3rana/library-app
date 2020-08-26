@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import AutoSuggestPanel from '../autosuggestPanel/Autosuggest'
 import './SearchBar.css'
-import {searchBook} from "../helpers/suggestions"
+import {searchBook} from "../relevancySearch/relSuggestionGenerator"
 
 
 function SearchBar({onSubmit}) {
