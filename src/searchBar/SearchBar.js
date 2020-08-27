@@ -51,7 +51,7 @@ function SearchBar({onSubmit}) {
               onClick={(data) => {
                 setInputData(data.label)
                 setSelectedBook(data.value)
-                onSetOpenSuggestion()
+                onSetOpenSuggestion(false)
               }}
             />
           }

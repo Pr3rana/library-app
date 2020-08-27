@@ -61,8 +61,6 @@ function cumstomSearch(uniqueWords, inputText){
         else if (inputText > currKey)
         {
             firstIndex = middleIndex + 1 
-        } else {
-            break 
         }
         middleIndex = Math.floor((lastIndex + firstIndex)/2) 
     }

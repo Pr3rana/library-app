@@ -1,10 +1,3 @@
-
-
-// it('renders without crashing', () => {
-//   const div = document.createElement('div');
-//   ReactDOM.render(<App />, div);
-// });
-
 import React from 'react';
 import Enzyme, { shallow, mount } from "enzyme";
 import SearchBar from "./searchBar/SearchBar";
@@ -13,22 +6,6 @@ import {BookCard} from './cardTemplate/Template'
 import Adapter from "enzyme-adapter-react-16";
 import { unmountComponentAtNode } from "react-dom";
 
-// let container = null;
-// beforeEach(() => {
-//   // setup a DOM element as a render target
-//   container = document.createElement("div");
-//   document.body.appendChild(container);
-// });
-// it('renders without crashing', () => {
-//   shallow(<SearchBar/>);
-// });
-
-// afterEach(() => {
-//   // cleanup on exiting
-//   unmountComponentAtNode(container);
-//   container.remove();
-//   container = null;
-// });
 var data = [{"author": "Dan Harris","bookId": 0,"id": 0,
 "summary": "The Book in Three Sentences: Practicing meditation and mindfulness will make you at least 10 percent happier. Being mindful doesn’t change the problems in your life, but mindfulness does help you respond to your problems rather than react to them. Mindfulness helps you realize that striving for success is fine as long as you accept that the outcome is outside your control.",
 "title": "Anything You Want"},{"author": "Dan Harris","bookId": 1,"id": 2,
