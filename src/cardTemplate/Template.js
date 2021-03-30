@@ -4,7 +4,7 @@ import SearchBar from '../searchBar/SearchBar';
 
 /* Template for header */
 function Header(){
-    return <h3 id="header">Unibuddy Library</h3>
+    return <h3 id="header">My Library</h3>
 }
 
 /* Template for book card */

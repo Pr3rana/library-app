@@ -25,7 +25,7 @@ function SearchBar({onSubmit}) {
   
     return(
         <div id="searchBar">
-          <input id="myInput" type="text" required name="MyLibraray" placeholder="Search"
+          <input id="myInput" type="text" required name="MyLibraray" placeholder="Search book"
               onChange={(e)=> {
                 setInputData(e.target.value)
                 onSetOpenSuggestion(true)
